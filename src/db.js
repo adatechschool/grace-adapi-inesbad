@@ -16,7 +16,7 @@ pool
     })
 
     .catch((err) => {
-        console.log("Error connecting to the database")
+        console.error("Error connecting to the database", err)
     });
 
     export default pool;
